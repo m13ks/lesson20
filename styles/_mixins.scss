@@ -1,0 +1,76 @@
+@mixin block() {
+    width: auto;
+    height: 840px;
+    overflow: hidden;
+}
+
+@mixin block-text() {
+    text-align: center;
+
+    h2 {  
+        font-size: 64px;
+        font-weight: 700;
+        margin: 0 0 0 10px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+        
+    }
+}
+
+@mixin small-picture($background-image) {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 30% 70%;
+    border-radius: 50%;
+    border: 12px solid #E15252;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #E15252;
+        opacity: 0.5;
+    }
+}
+
+@mixin card {
+    margin-top: 40px;
+    width: 246px;
+    height: 362px;
+    text-align: center;
+
+    h5 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-family: TT Hoves;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        margin: 0;
+    }
+}
+
+@mixin block-info() {
+    margin: 0 auto;
+    width: 1200px;
+    height: 648px;
+    position: relative;
+    overflow: hidden;
+}
+

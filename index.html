@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link href="./styles/style.css" rel="stylesheet">
+    <title>Round Rock Bicycle Repair</title>
+
+    <script>
+      function validateForm() {
+        let x = document.forms["myForm"] ["email"] ["tel"] ["location"].value;
+        if (x == "") {
+          alert("All inputs must be filled out");
+          return false;
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="block1">
+    
+      
+
+      <div class="main-info">
+          <img src="./images/Bike Repair_logo.png" alt="logo">
+
+          <div class="main-text">
+            <h2><span>What is Lorem Ipsum</span><br>
+              What is Lorem Ipsum</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+
+          <a href="#" class="link">Help Me</a>
+  
+      </div>
+      
+        
+      <div class="circle1">
+ 
+        <img src="./images/main_photo.png" alt="">
+
+      </div>
+              
+    </div>
+
+    <div class="block2">
+
+      <div class="block2-header">
+
+        <div class="block-text">
+          <h2>Services for you</h2>
+          <p>Repair and maintenance</p>
+        </div>
+        
+      </div>
+
+      <div class="cards">
+
+        <div class="card">
+          <div class="small-picture1"></div>
+          <h5>Diagnosis and adjustment of the bike</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text</p>
+        </div>
+
+        <div class="card">
+          <div class="small-picture2"></div>
+          <h5>Diagnosis and adjustment of the bike</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text</p>
+        </div>
+
+        <div class="card">
+          <div class="small-picture3"></div>
+          <h5>Diagnosis and adjustment of the bike</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text</p>
+        </div>
+
+        <div class="card">
+          <div class="small-picture4"></div>
+          <h5>Diagnosis and adjustment of the bike</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text</p>
+        </div>
+
+      </div>
+
+      <div class="button"><a href="#" class="link">Get discount 10%</a></div>
+
+    </div>
+
+    <div class="block3">
+
+      <div class="block-text">
+        <h2>About Us</h2>
+        <p>We are a big family</p>
+      </div>
+
+      <div class="block3-info">
+        <img src="./images/img_block3.png" alt="img_block3">
+        <div class="block3-info-text">
+          <h3>Company name</h3>
+          <div class="line"></div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+          <a href="#" class="link">Get discount 10%</a>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div class="block4">
+
+      <div class="block4-info">
+
+        <div class="block-text">
+          <h2>Contact Us</h2>
+          <p>Leave a request</p>
+        </div>
+
+        <div class="contact-form">
+
+          <form name="myForm" action="index.html" method="get" onsubmit="return validateForm()">
+                                    
+            <div>
+              <input
+              required
+              id="user_email" 
+              class="user_email"
+              type="email"
+              name="email"
+              placeholder="mail@mail.com"/>
+
+              
+            </div>               
+        
+            <div>
+              <input
+              required
+              id="user_phone" 
+              class="user_phone"
+              type="tel"
+              name="tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="012-345-6789"/>
+
+              
+            </div>        
+
+            <div>
+              <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="your address"/>
+            </div>
+
+            <div>
+              <input type="submit" value="Leave a request"/>
+            </div>
+            
+                            
+          </form>
+
+          <div class="contacts">
+
+            <p>
+              <img src="./images/ic_round-mail.png" alt="mail">
+              <a href="mailto: test@gmail.com" target="_blank" class="contact">test@gmail.com</a>
+            </p>
+            <p>
+              <img src="./images/ic_round-call.png" alt="phone">
+              <a href="tel: (303) 555-0105" target="_blank" class="contact">(303) 555-0105</a>
+            </p>
+            <p>
+              <img src="./images/ic_round-location-on.png" alt="location">
+              <a href="https://maps.google.com/?q=37.27322445975381, -121.83194378082703" target="_blank" class="contact">2715 Ash Dr. San Jose, South Dakota 83475</a>
+            </p>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="end"></div>
+
+    </div>
+
+  </body>
+</html>

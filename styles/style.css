@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Vampiro+One&display=swap");
+:root {
+  /* fonts */
+  --font-base: "Poppins", sans-serif;
+  --font-vampiro: "Vampiro One";
+  /* font sizes */
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 64px;
+  /* Colors */
+  --white: #FFFFFF;
+  --gray-1: #333;
+  --gray-2: #F2F2F2;
+  --indianred: #E15252;
+}
+
+/* General styles */
+body {
+  font-family: var(--font-base);
+  color: var(--gray-1);
+  max-width: 1903px;
+  margin: auto;
+}
+
+.block1 {
+  width: auto;
+  height: 840px;
+  overflow: hidden;
+  background-image: url(../images/block1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+
+.block2 {
+  width: auto;
+  height: 840px;
+  overflow: hidden;
+  background-color: var(--white);
+}
+.block2 .button {
+  text-align: center;
+  margin-bottom: 4.1%;
+  margin-top: 50px;
+}
+
+.block3 {
+  width: auto;
+  height: 840px;
+  overflow: hidden;
+  background-color: #E15252;
+  background-image: url(../images/block3.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.block3 h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+}
+.block3 p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.block3 h2 {
+  color: var(--white);
+  margin-top: 50px;
+}
+
+.block4 {
+  width: auto;
+  height: 840px;
+  overflow: hidden;
+  background-image: url(../images/block4.png);
+  background-repeat: no-repeat;
+}
+.block4 .end {
+  height: 92px;
+  background-color: #C4C4C4;
+  margin-top: 50px;
+}
+
+.logo {
+  background-image: url(../images/Bike\ Repair_logo.png);
+  background-repeat: no-repeat;
+  width: 419.31px;
+  height: 61px;
+}
+
+.circle1 {
+  background-color: #E15252;
+  border-radius: 50%;
+  height: 1450px;
+  width: 1450px;
+  margin-left: 76px;
+  position: relative;
+  top: -33.3%;
+}
+.circle1 img {
+  width: 1399px;
+  height: 1399px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  left: 3.6%;
+  top: -2%;
+}
+
+.link {
+  padding: 12px 50px;
+  border-radius: 42px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  line-height: 46px;
+  background-color: #E15252;
+  color: var(--white);
+}
+.link:hover {
+  opacity: 0.7;
+}
+
+.main-info {
+  margin-left: 18.5%;
+  margin-top: 50px;
+  width: auto;
+}
+.main-info img {
+  height: 61px;
+  width: auto;
+}
+.main-info .main-text {
+  margin-top: 190px;
+  width: 473px;
+}
+.main-info .main-text h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.main-info .main-text h2 span {
+  font-size: 32px;
+  font-weight: 500;
+  color: #E15252;
+}
+.main-info .main-text p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.block2-header {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+  width: 698px;
+  height: 292px;
+  background-color: var(--gray-2);
+  border-radius: 0px 0px 30px 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.block2-header h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+}
+.block2-header p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.block2-header p {
+  color: #E15252;
+}
+
+.cards {
+  display: flex;
+  -moz-column-gap: 3.8%;
+       column-gap: 3.8%;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card {
+  margin-top: 40px;
+  width: 246px;
+  height: 362px;
+  text-align: center;
+}
+.cards .card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.cards .card p {
+  font-family: TT Hoves;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin: 0;
+}
+
+.small-picture1 {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/small1.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 30% 70%;
+  border-radius: 50%;
+  border: 12px solid #E15252;
+}
+.small-picture1::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #E15252;
+  opacity: 0.5;
+}
+
+.small-picture2 {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/small2.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 30% 70%;
+  border-radius: 50%;
+  border: 12px solid #E15252;
+}
+.small-picture2::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #E15252;
+  opacity: 0.5;
+}
+
+.small-picture3 {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/small3.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 30% 70%;
+  border-radius: 50%;
+  border: 12px solid #E15252;
+}
+.small-picture3::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #E15252;
+  opacity: 0.5;
+}
+
+.small-picture4 {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/small4.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 30% 70%;
+  border-radius: 50%;
+  border: 12px solid #E15252;
+}
+.small-picture4::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #E15252;
+  opacity: 0.5;
+}
+
+.block3-info {
+  margin: 0 auto;
+  width: 1200px;
+  height: 648px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  bottom: -20px;
+  background: #FFFFFF;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.block3-info-text {
+  width: 352px;
+  margin-left: 30px;
+  margin-top: 139px;
+  text-align: left;
+}
+.block3-info-text h3 {
+  font-family: var(--font-vampiro);
+  font-size: 46px;
+  margin: 0;
+}
+.block3-info-text .line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 4px;
+  width: 90px;
+  background: #E15252;
+}
+.block3-info-text p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 30px;
+}
+
+.block4-info {
+  margin: 0 auto;
+  width: 1200px;
+  height: 648px;
+  position: relative;
+  overflow: hidden;
+  top: -20px;
+  background: #E15252;
+  border-radius: 0px 0px 50px 50px;
+  text-align: center;
+}
+.block4-info h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+}
+.block4-info p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.block4-info h2 {
+  color: var(--white);
+  margin-top: 100px;
+}
+.block4-info .contacts {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 32px;
+}
+.block4-info .contacts p {
+  margin-bottom: 30px;
+}
+.block4-info .contacts img {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.block4-info .contact {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white);
+  text-decoration: none;
+}
+.block4-info .contact:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+.contact-form form input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: none;
+}
+.contact-form form input:focus {
+  outline: none;
+}
+.contact-form form div {
+  margin-bottom: 14px;
+}
+.contact-form form input {
+  width: 374px;
+  height: 56px;
+  font-size: 18px;
+  text-align: center;
+  background: var(--white);
+  border-radius: 61px;
+}
+.contact-form form input:focus {
+  border: 5px solid #E15252;
+}
+.contact-form form input::-moz-placeholder {
+  text-align: center;
+  color: #E15252;
+  opacity: 0.5;
+  font-size: 18px;
+}
+.contact-form form input::placeholder {
+  text-align: center;
+  color: #E15252;
+  opacity: 0.5;
+  font-size: 18px;
+}
+.contact-form form input:invalid {
+  border-color: var(--gray-1);
+}
+.contact-form form input[type=submit] {
+  width: 168px;
+  border: 3px solid var(--white);
+  background: #E15252;
+  font-size: 18px;
+  color: var(--white);
+}
+.contact-form form input[type=submit]:hover {
+  background: var(--white);
+  color: #E15252;
+}/*# sourceMappingURL=style.css.map */
