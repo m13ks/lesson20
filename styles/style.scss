@@ -31,7 +31,7 @@ body {
 
 .block3 {
     @include block();
-    background-color: #E15252;
+    background-color: var(--indianred);
     background-image: url(../images/block3.png);
     background-repeat: no-repeat;
 
@@ -63,7 +63,7 @@ body {
 }
 
 .circle1 {
-    background-color: #E15252;
+    background-color: var(--indianred);
     border-radius: 50%;
     height: 1450px;
     width: 1450px;
@@ -87,12 +87,12 @@ body {
 .link {
     padding: 12px 50px;
     border-radius: 42px;
-    font-size: 18px;
+    font-size: var(--font-size-l);
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-    line-height: 46px;
-    background-color: #E15252;
+    line-height: 46pxs;
+    background-color: var(--indianred);
     color: var(--white);
 
     &:hover {
@@ -121,7 +121,7 @@ body {
             span {
                 font-size: 32px;
                 font-weight: 500;
-                color: #E15252;
+                color: var(--indianred);
             }
         }
     
@@ -149,7 +149,7 @@ body {
     justify-content: center;
 
     p {
-        color: #E15252;
+        color: var(--indianred);
     }
 }
 
@@ -197,7 +197,7 @@ body {
     text-align: left;
     h3 {
         font-family: var(--font-vampiro);
-        font-size: 46px;
+        font-size: var(--font-size-x);
         margin: 0;
     }
 
@@ -206,11 +206,11 @@ body {
         margin-bottom: 20px;
         height: 4px;
         width: 90px;
-        background: #E15252;
+        background: var(--indianred);
     }
 
     p {
-        font-size: 14px;
+        font-size: var(--font-size-s);
         line-height: 17px;
         margin-bottom: 30px;
 
@@ -220,7 +220,7 @@ body {
 .block4-info {
     @include block-info();
     top: -20px;
-    background: #E15252;
+    background: var(--indianred);
     border-radius: 0px 0px 50px 50px;
 
     @include block-text();
@@ -246,7 +246,7 @@ body {
 
     .contact {
         font-weight: 500;
-        font-size: 14px;
+        font-size: var(--font-size-s);
         color: var(--white);
         text-decoration: none;
 
@@ -278,20 +278,20 @@ body {
         input {
             width: 374px;
             height: 56px;
-            font-size: 18px;
+            font-size: var(--font-size-l);
             text-align: center;
             background: var(--white);
             border-radius: 61px;
             
             &:focus {
-                border: 5px solid #E15252;
+                border: 5px solid var(--indianred);
             }
 
             &::placeholder {
                 text-align: center;
-                color: #E15252;
+                color: var(--indianred);
                 opacity: 0.5;
-                font-size: 18px;
+                font-size: var(--font-size-l);
         
             }
 
@@ -302,13 +302,13 @@ body {
             &[type="submit"] {
                 width: 168px;
                 border: 3px solid var(--white);
-                background: #E15252;
-                font-size: 18px;
+                background: var(--indianred);
+                font-size: var(--font-size-l);
                 color: var(--white);
 
                 &:hover {
                     background: var(--white);
-                    color: #E15252;
+                    color: var(--indianred);
 
                 }
 

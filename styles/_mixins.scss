@@ -8,13 +8,13 @@
     text-align: center;
 
     h2 {  
-        font-size: 64px;
+        font-size: var(--font-size-xl);
         font-weight: 700;
         margin: 0 0 0 10px;
     }
 
     p {
-        font-size: 18px;
+        font-size: var(--font-size-l);
         font-weight: 500;
         margin: 0;
         
@@ -50,7 +50,7 @@
     text-align: center;
 
     h5 {
-        font-size: 18px;
+        font-size: var(--font-size-l);
         font-weight: 700;
         line-height: 26px;
         margin-top: 8px;
@@ -59,7 +59,7 @@
 
     p {
         font-family: TT Hoves;
-        font-size: 14px;
+        font-size: var(--font-size-s);
         font-weight: 500;
         line-height: 17px;
         margin: 0;

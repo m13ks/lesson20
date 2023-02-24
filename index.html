@@ -9,7 +9,7 @@
 
     <script>
       function validateForm() {
-        let x = document.forms["myForm"] ["email"] ["tel"] ["location"].value;
+        let x = document.forms["myForm"]["email"]["user_name"]["location"].value;
         if (x == "") {
           alert("All inputs must be filled out");
           return false;
@@ -141,15 +141,11 @@
         
             <div>
               <input
-              required
-              id="user_phone" 
-              class="user_phone"
-              type="tel"
-              name="tel"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              placeholder="012-345-6789"/>
-
-              
+              id="user_name" 
+              class="user_name"
+              type="text"
+              name="user_name"
+              placeholder="Your Name"/>
             </div>        
 
             <div>
@@ -157,7 +153,7 @@
               type="text"
               id="location"
               name="location"
-              placeholder="your address"/>
+              placeholder="Your Address"/>
             </div>
 
             <div>
